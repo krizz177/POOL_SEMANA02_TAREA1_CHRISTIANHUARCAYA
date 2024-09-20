@@ -28,7 +28,7 @@ namespace POOL_SEMANA02_Empleado
         }
 
 
-        static void ListarDatosEmpleado(Empleado empleado)
+            public static void ListarDatosEmpleado(Empleado empleado)
         {
             Console.WriteLine("Código del empleado: " + empleado.codigo);
             Console.WriteLine("Nombre del empleado: " + empleado.nombre);
