@@ -28,7 +28,7 @@ namespace POOL_SEMANA02_Pelota
         }
 
 
-        static void ListarPelota(Pelota pelota)
+          public static void ListarPelota(Pelota pelota)
         {
             Console.WriteLine("Marca: " + pelota.marca);
             Console.WriteLine("Peso: " + pelota.peso);
