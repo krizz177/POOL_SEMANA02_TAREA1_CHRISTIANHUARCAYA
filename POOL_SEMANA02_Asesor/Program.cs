@@ -28,7 +28,7 @@ namespace POOL_SEMANA02_Asesor
         }
 
 
-        static void ListarAsesor(Asesor asesor)
+           public  static void ListarAsesor(Asesor asesor)
         {
             Console.WriteLine("Código: " + asesor.codigo);
             Console.WriteLine("Nombre: " + asesor.nombre);
