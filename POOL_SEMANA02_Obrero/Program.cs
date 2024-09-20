@@ -31,7 +31,7 @@ namespace POOL_SEMANA02_Obrero
         }
 
 
-        static void ListarDatosObrero(Obrero obrero)
+          public static void ListarDatosObrero(Obrero obrero)
         {
             Console.WriteLine("Código: " + obrero.codigo);
             Console.WriteLine("Nombre: " + obrero.nombre);
