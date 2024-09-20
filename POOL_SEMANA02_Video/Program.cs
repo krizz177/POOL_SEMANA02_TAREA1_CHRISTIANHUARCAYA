@@ -27,7 +27,7 @@ namespace POOL_SEMANA02_Video
         }
 
 
-        static void ListarDatosVideo(Video video)
+             public static void ListarDatosVideo(Video video)
         {
             Console.WriteLine("Código: " + video.codigo);
             Console.WriteLine("Nombre del video: " + video.nombreDelVideo);
