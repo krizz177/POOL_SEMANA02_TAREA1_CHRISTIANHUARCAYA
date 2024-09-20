@@ -28,7 +28,7 @@ namespace POOL_SEMANA02_Paciente
         }
 
 
-        static void ListarDatosPaciente(Paciente paciente)
+          public static void ListarDatosPaciente(Paciente paciente)
         {
             Console.WriteLine("Nombre: " + paciente.nombre);
             Console.WriteLine("Apellido: " + paciente.apellido);
