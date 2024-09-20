@@ -28,7 +28,7 @@ namespace POOL_SEMANA02_Edificio
         }
 
 
-        static void ListarDatosEdificio(Edificio edificio)
+           public static void ListarDatosEdificio(Edificio edificio)
         {
             Console.WriteLine("Datos del edificio:");
             Console.WriteLine("Código del edificio: " + edificio.codigo);
